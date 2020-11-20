@@ -1,0 +1,21 @@
+.signup,
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signup > *,
+.login > * {
+  margin: 10px 0;
+}
+
+.card {
+  margin: 30px;
+  border: 1px solid #ddd;
+}
+
+span {
+  cursor: pointer;
+}
